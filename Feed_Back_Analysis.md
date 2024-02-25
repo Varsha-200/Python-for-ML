@@ -1,4 +1,4 @@
-![Capture](https://github.com/Varsha-200/Python-for-ML/assets/148844770/fb2e70d0-c170-40d0-89e9-19b0933a98e5)## Use machine learning techniques to analyse the feedback of the Intel Unnati sessions
+## Use machine learning techniques to analyse the feedback of the Intel Unnati sessions
 ### Step-1:Importing necessary libraries
 The required libraries such as `pandas,numpy,seaborn,mathplotlib` etc are imported.
 NB:Install the libraries if not present,using ``` pip install ``` corresponding library name.

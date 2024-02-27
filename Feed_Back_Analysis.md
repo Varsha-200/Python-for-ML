@@ -185,7 +185,8 @@ ax.set_title(label = "Resourse Person", fontsize = 20,color='Brown',pad=20);
 ### Set title for the pie chart
 ``ax.set_title(label="Resourse Person", fontsize=20, color='Brown', pad=20)``
 This code utilizes Matplotlib and Seaborn to generate a side-by-side visualization of the distribution of a categorical variable ("Resourse Person") in the DataFrame df_class. The first subplot displays a count plot (bar chart), while the second subplot presents a pie chart. Both charts provide insights into the frequency and proportion of different categories in the "Resourse Person" column.
-Output:![pie chart](https://github.com/Varsha-200/Python-for-ML/assets/148844770/87197df9-8630-4ce6-a0c1-9d4ad698adbe)
+Output:![image](https://github.com/Varsha-200/Python-for-ML/assets/148844770/5aa0174b-7c71-49e8-b40f-5a0cec977d07)
+
 ### Step-5:Creating a summary of responses
  A box and whisker plot or diagram (otherwise known as a boxplot), is a graph summarising a set of data. The shape of the boxplot shows how the data is distributed and it also shows any outliers. It is a useful way to compare different sets of data as you can draw more than one boxplot per graph.
  In this step we are creating box plot on various attributes and resource persons.
@@ -194,35 +195,40 @@ Output:![pie chart](https://github.com/Varsha-200/Python-for-ML/assets/148844770
 sns.boxplot(y=df_class['Resourse Person'],x=df_class['Content Quality'])
 plt.show()
 ```
-Output:![rp,cq](https://github.com/Varsha-200/Python-for-ML/assets/148844770/b8ebbf73-d5a3-4dd3-ba96-501bc9387a01)
+Output:![image (1)](https://github.com/Varsha-200/Python-for-ML/assets/148844770/ab0a7a9d-bc80-4d72-a45b-8c4b7209fe0e)
+
 
 2)creating boxplot on Effectiveness v/s Resource person
 ```python
 sns.boxplot(y=df_class['Resourse Person'],x=df_class['Content Quality'])
 plt.show()
 ```
-Output:![rp ef](https://github.com/Varsha-200/Python-for-ML/assets/148844770/9335df38-9429-4aa7-8dbe-fe44ce628174)
+Output:![image (2)](https://github.com/Varsha-200/Python-for-ML/assets/148844770/3702eabf-b8a1-4f47-86e8-37550595ebe8)
+
 
 3)creating boxplot on Relevance v/s Resource person
 ```python
 sns.boxplot(y=df_class['Resourse Person'],x=df_class['Content Quality'])
 plt.show()
 ```
-Output:![rp , re](https://github.com/Varsha-200/Python-for-ML/assets/148844770/3a2ab3a8-5752-4bc0-97e0-8c006d9dec9c)
+Output:![image (3)](https://github.com/Varsha-200/Python-for-ML/assets/148844770/c30c3f9e-89bc-4fff-b5b9-d380cdcccb86)
+
 
 4)creating boxplot on Overall Organization v/s Resource person
 ```python
 sns.boxplot(y=df_class['Resourse Person'],x=df_class['Content Quality'])
 plt.show()
 ```
-Output:![rp,oo](https://github.com/Varsha-200/Python-for-ML/assets/148844770/9e291ee8-5645-4f5b-b512-0691444270ce)
+Output:![image (4)](https://github.com/Varsha-200/Python-for-ML/assets/148844770/43fbce1e-cc86-4365-a295-fecf0a2b15ff)
+
 5)creating boxplot on Branch  v/s Content quality
 
 ```python
 sns.boxplot(y=df_class['Resourse Person'],x=df_class['Content Quality'])
 plt.show()
 ```
-Output:![branch cq](https://github.com/Varsha-200/Python-for-ML/assets/148844770/af06afd1-241a-4652-9113-2a310097998c)
+Output:![image (5)](https://github.com/Varsha-200/Python-for-ML/assets/148844770/305f824f-d43c-4135-9196-6973bf7a27fc)
+
 ## Step-6:Unsupervised machine learning
 Using K-means Clustering to identify segmentation over student's satisfaction.
 ### Finding the best value of k using elbow method
@@ -343,4 +349,4 @@ plt.ylabel(input_col[2])
 plt.title('K-means Clustering')
 plt.show()
 ```
-Output:![clustering visualizastion](https://github.com/Varsha-200/Python-for-ML/assets/148844770/70d23c7b-5c18-442e-ab54-3291b78eb941)
+Output:![image (6)](https://github.com/Varsha-200/Python-for-ML/assets/148844770/e7c1f7a3-f5c7-4b29-9e5c-653612de71d2)
